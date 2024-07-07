@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://messenger-orp40jwws-vinays-projects-40feb1b0.vercel.app',"https://messenger-kf9790gy1-vinays-projects-40feb1b0.vercel.app",
+    origin:"https://messenger-kf9790gy1-vinays-projects-40feb1b0.vercel.app",
     credentials:true
 };
 app.use(cors(corsOption)); 
