@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        origin:['https://lighthearted-syrniki-d4a557.netlify.app'],
+        origin:['https://merry-brigadeiros-0c9fc6.netlify.app'],
         methods:['GET', 'POST'],
     },
 });
