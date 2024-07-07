@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://messenger-tau-rust.vercel.app/login',
+    origin:'https://messenger-orp40jwws-vinays-projects-40feb1b0.vercel.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
