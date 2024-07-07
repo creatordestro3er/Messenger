@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://polite-cocada-363f43.netlify.app',
+    origin:'https://lighthearted-syrniki-d4a557.netlify.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
