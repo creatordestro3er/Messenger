@@ -10,7 +10,7 @@ import { persistStore } from 'redux-persist';
 
 let persistor = persistStore(store);
 
-export const BASE_URL="https://messenger-f69s.vercel.app"
+export const BASE_URL="https://messenger-3.onrender.com"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
