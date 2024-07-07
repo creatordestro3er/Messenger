@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:"messengerfront-dwz44o1yo-vinays-projects-40feb1b0.vercel.app"
+    origin:'messengerfront-dwz44o1yo-vinays-projects-40feb1b0.vercel.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
