@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'https://messengerfront.vercel.app',
+    origin:'https://polite-cocada-363f43.netlify.app',
     credentials:true
 };
 app.use(cors(corsOption)); 
